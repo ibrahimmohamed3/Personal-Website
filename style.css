@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 600;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+.navigation .btnlogin-popup:hover {
+    background: #fff;
+    color: black;
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transform-origin: right;
+    bottom: -6px;
+    left: 0;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('images/brick.avif') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    overflow-x: hidden;
+    height: 90vh;
+    background-position: center;
+    align-items: center;
+    padding: 250px 10% 0;
+    color: white;
+    font-size: medium;
+    margin: 2px;
+    font-size: 20px;
+    
+}
+img{
+    border-radius: 5rem;
+}
