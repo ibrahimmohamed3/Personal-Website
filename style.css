@@ -42,6 +42,8 @@ header {
     background-color: blue;
     color: fff;
     transform :scale(1.2);
+    border-radius: 2rem;
+
 }
 .navigation  {
 
@@ -94,7 +96,20 @@ img{
 /*About*/
 .about{
     color: white;
-    margin: 4px;
-    padding: 4px;
+    margin: 10px;
+    padding: 20px;
     font-size: 20px;
 } 
+/*Services*/
+.services {
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.ser {
+    text-decoration-line: underline;
+}
+.services li {
+    margin-top: 20px;
+}
