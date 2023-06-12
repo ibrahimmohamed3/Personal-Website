@@ -128,3 +128,15 @@ img{
     padding: 20px;
     font-size: 20px;
 } 
+.contact-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.contact-info{
+    min-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    
+}
