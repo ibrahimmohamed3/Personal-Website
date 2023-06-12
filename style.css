@@ -62,7 +62,7 @@ header {
 body{
 
     justify-content: center;
-    background-image: url(images/background.jpg);
+    background-image: url(images/dark.avif);
     background-size:cover;
     
 }
@@ -91,3 +91,10 @@ img{
     border-radius: 3rem;
 
 }
+/*About*/
+.about{
+    color: white;
+    margin: 4px;
+    padding: 4px;
+    font-size: 20px;
+} 
