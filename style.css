@@ -122,3 +122,9 @@ img{
 .services li {
     margin-top: 20px;
 }
+.cont{
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+} 
